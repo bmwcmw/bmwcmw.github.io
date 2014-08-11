@@ -1,0 +1,9 @@
+Notice: for 10x faster LSI support, please install http://rb-gsl.rubyforge.org/
+[33mConfiguration file: none[0m
+            Source: /home/gt/dev/bmwcmw.github.io
+       Destination: /home/gt/dev/bmwcmw.github.io/_site
+      Generating... 
+                    done.
+[33mConfiguration file: none[0m
+    Server address: http://0.0.0.0:4000/
+  Server running... press ctrl-c to stop.
