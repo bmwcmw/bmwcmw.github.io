@@ -7,12 +7,21 @@
 　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 　　　　<title>{{ page.title }}</title>
+　　　　
+　　　　<h3 class="masthead-title">
+　　　　<a href="/" title="Home">{{ site.title }}</a>
+　　　　{% for page in site.pages_list %}
+　　　　&nbsp;&nbsp;&nbsp;
+　　　　<small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+　　　　{% endfor %}
+　　　　</h3>
 
 　　</head>
 
 　　<body>
 
 　　　　{{ content }}
+　　　　{% include comments.html %}
 
 　　</body>
 

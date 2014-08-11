@@ -1,3 +1,7 @@
 baseurl: /jekyll
 hignlighter: pygments
 safe: true
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
