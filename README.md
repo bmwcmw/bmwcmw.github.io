@@ -14,7 +14,7 @@ To use pages and Jekyll :
 - Ruby 2.0.0 doesn't work yet
 - To switch ruby version, use rvm https://rvm.io/
 - http://www.ruanyifeng.com/blog/2012/08/blogging\_with\_jekyll.html
-- Branch gt-pages is important
+- Branch gh-pages is important
 
 Once jekyll installed,
 - bundle exec jekyll serve
