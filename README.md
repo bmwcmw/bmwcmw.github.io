@@ -25,19 +25,19 @@ Once jekyll installed,
 - Install nodejs first if it says sth like "javascript runtime missing"
 
 If 404 error,
-- Delete the gh-pages branch on github
+Delete the gh-pages branch on github
 	git push origin --delete gh-pages
 
-- Delete the gh-pages branch on local
+Delete the gh-pages branch on local
 	git branch -D gh-pages
 
-- Reinitialize git repo
+Reinitialize git repo
 	git init
 
-- Recreate the branch on local
+Recreate the branch on local
 	git branch gh-pages
 
-- Repush the gh-pages branch to github
+Repush the gh-pages branch to github
 	git push origin gh-pages
 
 
