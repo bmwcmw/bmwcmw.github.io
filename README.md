@@ -26,19 +26,19 @@ Once jekyll installed,
 
 If 404 error,
 - Delete the gh-pages branch on github
--- git push origin --delete gh-pages
+	git push origin --delete gh-pages
 
 - Delete the gh-pages branch on local
--- git branch -D gh-pages
+	git branch -D gh-pages
 
 - Reinitialize git repo
--- git init
+	git init
 
 - Recreate the branch on local
--- git branch gh-pages
+	git branch gh-pages
 
 - Repush the gh-pages branch to github
--- git push origin gh-pages
+	git push origin gh-pages
 
 
 
