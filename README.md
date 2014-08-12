@@ -23,7 +23,7 @@ To use pages and Jekyll
 
 Once jekyll installed
 ----------
-- bundle exec jekyll serve
+- **bundle exec jekyll serve**
 - Install nodejs first if it says sth like "javascript runtime missing"
 
 If error 404
